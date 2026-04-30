@@ -1,0 +1,41 @@
+title = "YourName ⚡"
+window-padding-x = 20
+window-padding-y = 5
+
+font-size = 18
+font-family = Operator Mono
+font-family = Maple Mono NF
+font-family = "Hack Nerd Font"
+
+background = #0F0E0E
+foreground = #e6e6e6
+
+shell-integration-features = no-cursor
+term = xterm-256color
+
+cursor-color = #ffd700
+cursor-style = bar
+cursor-style-blink = true
+
+notify-on-command-finish = always
+
+custom-shader-animation = true
+custom-shader = ~/.config/ghostty/shaders/cursor_sweep.glsl
+
+
+palette = 0=#1a1a1a
+palette = 1=#ff5f56
+palette = 2=#26c281
+palette = 3=#f7c948
+palette = 4=#4da3ff
+palette = 5=#d16ba5
+palette = 6=#2bd4c5
+palette = 7=#dcdcdc
+palette = 8=#4d4d4d
+palette = 9=#ff6b6b
+palette = 10=#4ade80
+palette = 11=#ffd166
+palette = 12=#60a5fa
+palette = 13=#e879f9
+palette = 14=#22d3ee
+palette = 15=#ffffff

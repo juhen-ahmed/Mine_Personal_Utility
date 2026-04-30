@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Kill old processes to start fresh
+pkill borders
+
+# The 'borders' command with your Hyper-style settings
+$(which borders) \
+    whitelist="ghostty" \
+    active_color="gradient(top_left=0xff80d1fe,bottom_right=0xffff1b6b)" \
+    inactive_color="gradient(top_left=0xff80d1fe,bottom_right=0xffff1b6b)" \
+    width=10.0 \
+    hidpi=on \
+    order=above &
+

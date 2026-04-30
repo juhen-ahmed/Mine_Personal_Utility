@@ -1,0 +1,21 @@
+classic: false
+
+icons:
+  when: always
+
+blocks:
+  - permission
+  - user
+  - group
+  - size
+  - date
+  - name
+
+sorting:
+  column: name
+
+date: relative
+
+color:
+  when: always
+  theme: custom
